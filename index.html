@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gulp Demo</title>
+<!-- bower:css -->
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+<!-- endbower -->
+
+<!-- inject:css -->
+<link rel="stylesheet" href="/app/styles.css">
+<!-- endinject -->
+</head>
+
+<body>
+<!-- bower:js -->
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<!-- endbower -->
+<h1>Sisters Antiques</h1>
+<body ng-controller="SwitchController as switchCtrl">
+  <div id="topbar">
+    <h1 id="MainTitle"> Sister's Salinetro Antiquities</h1>
+    <ul>
+      <li><a ui-sref="main">Home</a></li>
+      <li><a ui-sref="about">About Us</a></li>
+      <li><a ui-sref="stock">For Sale</a></li>
+    </ul>
+  </div>
+  <div class="well" ui-view></div>
+<!-- inject:js -->
+<script src="/app/app.js"></script>
+<script src="/app/switch.controller.js"></script>
+<!-- endinject -->
+</body>
+</html>
