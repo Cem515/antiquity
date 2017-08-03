@@ -8,3 +8,13 @@ ul {
     position: fixed; 
     overflow: auto; 
 }
+
+.topnav a:hover {
+    background-color: wheat;
+    color: darkblue;
+}
+
+.topnav a.active {
+    background-color: wheat;
+    color: darkblue;
+}
