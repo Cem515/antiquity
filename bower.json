@@ -22,8 +22,5 @@
         "dist/css/bootstrap.css"
       ]
     }
-  },
-  "authors": [
-    "Collin McCoy <collinmccoy17@gmail.com>"
-  ]
+  }
 }

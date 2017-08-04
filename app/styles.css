@@ -1,20 +1,39 @@
-ul {
+
+#sidebar {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 15%;
-    background-color: #f1f1f1;
+     width: 15%; 
+    background-color: saddlebrown;
     height: 100%; 
     position: fixed; 
     overflow: auto; 
 }
 
-.topnav a:hover {
-    background-color: wheat;
-    color: darkblue;
+#navlink {
+    background-color: sienna;
 }
 
-.topnav a.active {
-    background-color: wheat;
-    color: darkblue;
+a:hover {
+    color: wheat;
+}
+
+a {
+    text-decoration: none;
+    color: goldenrod;
+    font-family: 'Merienda', cursive;
+    font-size: 50px;
+}
+
+h1 {
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    font-size: 60px;
+    color: goldenrod;
+    background-color: saddlebrown;
+}
+
+#MainTitle {
+    font-family: 'Merienda', cursive;
+    text-align: center;
 }
