@@ -18,7 +18,9 @@
             })
             .state('store', {
                 url: "/store",
-                templateUrl: "app/htmls/store.html"
+                templateUrl: "app/htmls/store.html",
+                controller:'StoreController',
+                controllerAs:'StoreCtrl'
             })
     });
 })();
